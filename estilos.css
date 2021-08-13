@@ -1,0 +1,110 @@
+/* Diseño para celulares */
+#columna1, #columna2, #columna3  {
+	float:none;
+	width:100%;
+	background-color: yellow;
+
+
+}
+
+/* Diseño para tabletas */ 
+@media screen and (max-width: 800px) {
+	#columna1, #columna2  {
+		float:left;
+		width:50%;
+		background-color: yellow;
+
+	}
+}
+
+/* Diseño para PC */ 
+@media screen and (min-width: 1000px) {
+	#columna1, #columna2, #columna3  {
+	float:left;
+	width:33%;
+	background-color: yellow;
+}      
+    
+
+
+
+		body {
+			background-color: yellow;
+		}
+
+		header {
+			background-color: yellow;
+			color: #fff;
+			padding: 30px;
+
+		} 
+		.banner {
+			padding: 10px;
+		}
+			nav {
+				background-color: yellow;
+				padding: 30px;
+			}
+			.inicio{
+				background-color: white;
+				padding: 8px;
+				border-radius: 12px;
+			}
+			.radio {
+				background-color: white;
+				padding: 8px;
+				border-radius: 12px;
+				
+				
+			}
+			.noticias {
+				background-color: white;
+				padding: 8px;
+				border-radius: 12px;
+			}
+		    
+			.anime {
+				background-color: white;
+				padding: 8px;
+				border-radius: 12px;
+			}
+
+
+			.grilla {
+				background-color: yellow;
+				padding:  20px;
+				display: grid;
+				grid-template-columns: auto auto auto;
+				grid-column-gap: 10px;
+				grid-row-gap: 10px;
+			}
+			.grilla-item {
+				background-color: #999;
+				padding: 30px;
+			}
+			.grilla-item-1 {
+				background-color: black;
+				grid-column-start: 1;
+			  	grid-column-end: 3;
+			  	grid-row-start: 1;
+			  	grid-row-end: 3;
+			}
+			.grilla-item-2 {
+				background-color: yellow;
+				}
+				.grilla-item-3 {
+				background-color: yellow;
+				}
+
+
+
+
+
+
+
+
+
+	
+
+		
+		
